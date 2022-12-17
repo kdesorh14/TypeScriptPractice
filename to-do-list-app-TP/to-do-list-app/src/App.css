@@ -5,7 +5,42 @@
   width: 100w;
   height: 100vh;
 }
+.header .inputContainer {
+  display: flex;
+  flex-direction: column;
+}
 
 .header {
-  
+  flex: 30%;
+  background-color: rgb(38, 178, 188);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header input {
+  width: 170px;
+  height: 20px;
+  border: none;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+}
+
+.header button {
+width: 70px;
+height: 84px;
+border: none;
+border-bottom-right-radius: 8px;
+border-top-right-radius: 8px;
+padding-left: 10px;
+cursor: pointer;
+}
+
+.todoList {
+  flex: 70%;
+  width: 100%
 }
